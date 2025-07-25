@@ -1,0 +1,29 @@
+/* This is for card slider or Slider */
+.top-section {
+    height: 300px;
+    position: relative;
+}
+
+/* CardSlider.css */
+.card-slider {
+    position: relative;
+    top: -30%;
+    /* Overlaps top section by 30% */
+    z-index: 10;
+    padding-bottom: 2rem;
+}
+
+
+/* This is about us image  */
+.about-us-section h2 {
+    font-weight: 700;
+}
+
+.about-us-section p.lead {
+    font-size: 1.2rem;
+}
+
+.about-us-section ul li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
