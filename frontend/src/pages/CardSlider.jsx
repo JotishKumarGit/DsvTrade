@@ -25,6 +25,12 @@ const cards = [
         title: "Traditional Clay Pot",
         description: "Eco-friendly, handmade clay pot ideal for storing water and enhancing your kitchen's traditional charm.",
     },
+    {
+        id: 4,
+        img: img_2,
+        title: "Divine God Statue",
+        description: "Beautifully crafted idol perfect for home temples, spiritual corners, or as a sacred gift.",
+    },
 ];
 
 
@@ -32,15 +38,19 @@ const CardSlider = () => {
     return (
         <div className="card-slider container-fluid">
             <div className="d-flex overflow-auto flex-row gap-3 px-3">
-                {cards.map(card => (
-                    <div className="card flex-shrink-0" key={card.id} style={{ width: "18rem" }}>
-                        <img src={card.img} alt="" height={'200px'} />
-                        <div className="card-body">
-                            <h5 className="card-title">{card.title}</h5>
-                            <p className="card-text">{card.description}</p>
+                <div className="row">
+                    {cards.map(card => (
+                        <div className="col-md-3 mb-4">
+                            <div className="card h-100 flex-shrink-0" key={card.id}>
+                                <img src={card.img} alt="" height={'200px'} />
+                                <div className="card-body">
+                                    <h5 className="card-title">{card.title}</h5>
+                                    <p className="card-text">{card.description}</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                ))}
+                    ))}
+                </div>
             </div>
         </div>
     );

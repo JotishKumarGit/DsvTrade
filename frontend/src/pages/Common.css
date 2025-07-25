@@ -1,6 +1,6 @@
 /* This is for card slider or Slider */
 .top-section {
-    height: 300px;
+    height: 400px;
     position: relative;
 }
 
@@ -26,4 +26,63 @@
 .about-us-section ul li {
     font-size: 1rem;
     margin-bottom: 0.5rem;
+}
+
+/* This is for background images */
+/* Set full height background for hero section */
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Overlay background for readability */
+.overlay-card {
+    background-color: rgba(255, 255, 255, 0.85);
+    /* Light transparent overlay */
+    border-radius: 15px;
+    padding: 2rem;
+    max-width: 700px;
+}
+
+/* Icon styling */
+.icon-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    /* Bootstrap primary */
+}
+
+/* Button animation (optional) */
+.animated-btn {
+    transition: all 0.3s ease;
+}
+
+.animated-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+}
+
+/* Responsive text adjustments */
+@media (max-width: 768px) {
+    .overlay-card {
+        padding: 1rem;
+    }
+
+    .icon-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .description {
+        font-size: 0.95rem;
+    }
 }

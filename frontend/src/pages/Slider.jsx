@@ -12,13 +12,13 @@ function Slider() {
             <div id="carouselExample" className="carousel slide top-section">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={baner_2} className="d-block w-100" style={{ height: '400px', backgroundPosition: 'center' }} alt="..." />
+                        <img src={baner_2} className="d-block w-100" style={{ height: '500px', backgroundPosition: 'center' }} alt="..." />
                     </div>
                     <div className="carousel-item">
-                        <img src={baner_1} className="d-block w-100" style={{ height: '400px', backgroundPosition: 'center' }} alt="..." />
+                        <img src={baner_1} className="d-block w-100" style={{ height: '500px', backgroundPosition: 'center' }} alt="..." />
                     </div>
                     <div className="carousel-item">
-                        <img src={baner_3} className="d-block w-100" style={{ height: '400px', backgroundPosition: 'center' }} alt="..." />
+                        <img src={baner_3} className="d-block w-100" style={{ height: '500px', backgroundPosition: 'center' }} alt="..." />
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

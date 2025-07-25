@@ -46,7 +46,7 @@ function Header() {
           <div className="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
 
             {/* Center: Search Bar */}
-            <form className="d-flex mx-auto" role="search" style={{ width: '100%', maxWidth: '400px' }}>
+            {/* <form className="d-flex mx-auto" role="search" style={{ width: '100%', maxWidth: '400px' }}>
               <input
                 className="form-control me-2"
                 type="search"
@@ -56,7 +56,7 @@ function Header() {
               <button className="btn btn-outline-primary" type="submit">
                 Search
               </button>
-            </form>
+            </form> */}
 
             {/* Right: Links */}
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
